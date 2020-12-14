@@ -80,8 +80,8 @@ dnl ---------------------------------------------------------------------------
 dnl Configure which files to generate.
 dnl ---------------------------------------------------------------------------
 
-dnl AC_CONFIG_FILES(Makefile)
-AC_CONFIG_FILES(appdata.xml)
+AC_CONFIG_FILES(Makefile)
+AC_CONFIG_FILES(metainfo.xml)
 
 dnl ---------------------------------------------------------------------------
 dnl Output the generated config.status script.

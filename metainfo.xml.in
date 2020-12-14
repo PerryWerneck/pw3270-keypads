@@ -12,22 +12,22 @@
 
 <component type="addon">
 
-	<id>pw3270-python</id>
-	<extends>br.com.bb.pw3270</extends>
+	<id>@PRODUCT_NAME@-keypads</id>
+	<extends>br.com.bb.@PRODUCT_NAME@.desktop</extends>
 
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>LGPL-3.0</project_license>
 
-	<name>pw3270-python</name>
-	<name xml:lang="pt_BR">pw3270-python</name>
+	<name>@PRODUCT_NAME@-python</name>
+	<name xml:lang="pt_BR">@PRODUCT_NAME@-python</name>
 
-	<summary>Python extension for pw3270</summary>
-	<summary xml:lang="pt_BR">Extensão python para pw3270</summary>
+	<summary>Screen keypads for @PRODUCT_NAME@</summary>
+	<summary xml:lang="pt_BR">Keypads para @PRODUCT_NAME@</summary>
 
 	<developer_name>Perry Werneck</developer_name>
 
-	<url type="homepage">https://github.com/PerryWerneck/python3-tn3270</url>
-	<url type="bugtracker">https://github.com/PerryWerneck/python3-tn3270/issues</url>
+	<url type="homepage">https://github.com/PerryWerneck/pw3270-keypads.git</url>
+	<url type="bugtracker">https://github.com/PerryWerneck/pw3270-keypads/issues</url>
 
 	<update_contact>perry.werneck@gmail.com</update_contact>
 
