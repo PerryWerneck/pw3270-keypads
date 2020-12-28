@@ -66,6 +66,8 @@ $(DESTDIR)/$(datarootdir)/$(PRODUCT_NAME)/keypad/%.xml: \
 
 #---[ Targets ]--------------------------------------------------------------------------
 
+all:
+
 install: \
 	$(foreach KEYPAD, $(notdir $(KEYPADS)), $(DESTDIR)/$(datarootdir)/$(PRODUCT_NAME)/keypad/$(KEYPAD))
 
