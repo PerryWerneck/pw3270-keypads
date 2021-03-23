@@ -69,10 +69,10 @@ $(DESTDIR)/$(datarootdir)/$(PRODUCT_NAME)/keypad/%.xml: \
 install: \
 	$(foreach KEYPAD, $(notdir $(KEYPADS)), $(DESTDIR)/$(datarootdir)/$(PRODUCT_NAME)/keypad/$(KEYPAD))
 
-	@$(MKDIR) $(DESTDIR)$(datarootdir)/appdata
+	@$(MKDIR) $(DESTDIR)$(datarootdir)/metainfo
 	@$(INSTALL_DATA) \
 		metainfo.xml \
-		$(DESTDIR)$(datarootdir)/appdata/$(PRODUCT_NAME)-keypads.metainfo.xml
+		$(DESTDIR)$(datarootdir)/metainfo/$(PRODUCT_NAME)-keypads.metainfo.xml
 
 #---[ Clean Targets ]--------------------------------------------------------------------
 
