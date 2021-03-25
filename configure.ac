@@ -56,7 +56,6 @@ dnl ---------------------------------------------------------------------------
 
 AC_PATH_TOOL([ZIP],[zip],[no])
 AC_PATH_TOOL([DLLTOOL],[dlltool],[no])
-AC_PATH_TOOL([SCOUR], [scour], [no])
 AC_PATH_TOOL([APPSTREAMCLI],[appstreamcli], [no])
 
 PKG_CHECK_EXISTS
