@@ -1,0 +1,14 @@
+Source: pw3270-keypads
+Section: unknown
+Priority: optional
+Maintainer: Perry Werneck <perry.werneck@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, autoconf, automake, lib3270-dev
+
+Package: pw3270-keypads
+Architecture: any
+Depends: ${misc:Depends}, pw3270
+Enhances: pw3270
+Description: Screen keypads for pw3270.
+ Set of screen keypads for pw3270.
+
+
